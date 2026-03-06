@@ -81,7 +81,7 @@ export default function AboutPage() {
           title="Redefining Luxury Property Management"
           description="With over 15 years of excellence in Dubai's real estate market, we combine international expertise with local knowledge to deliver unmatched property management and investment services. Our commitment to discretion, professionalism, and exceptional service has established us as the trusted choice for elite clients worldwide."
           tag="Our Story"
-          imageSrc="http://img.b2bpic.net/free-photo/portrait-business-partners-greeting-one-another-by-handshaking-way-office_1150-3028.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/portrait-business-partners-greeting-one-another-by-handshaking-way-office_1150-3028.jpg?_wi=2"
           imageAlt="Luxe Properties Dubai team in state-of-the-art office"
           buttons={[{ text: "View Our Services", href: "#" }]}
           useInvertedBackground={false}
@@ -99,28 +99,28 @@ export default function AboutPage() {
               id: "1",
               name: "Amira Al-Mansouri",
               role: "CEO & Founder",
-              imageSrc: "http://img.b2bpic.net/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg?_wi=1",
               imageAlt: "Amira Al-Mansouri, CEO",
             },
             {
               id: "2",
               name: "Hassan Al-Maktoum",
               role: "Head of Operations",
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1",
               imageAlt: "Hassan Al-Maktoum, Operations Director",
             },
             {
               id: "3",
               name: "Leila Al-Mazrouei",
               role: "Director of Properties",
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-beautiful-young-businesswoman-looking-camera-head-shot-portrait_1163-4928.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-beautiful-young-businesswoman-looking-camera-head-shot-portrait_1163-4928.jpg?_wi=1",
               imageAlt: "Leila Al-Mazrouei, Properties Director",
             },
             {
               id: "4",
               name: "Mohammed Al-Falasi",
               role: "Investment Advisor",
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2",
               imageAlt: "Mohammed Al-Falasi, Investment Advisor",
             },
           ]}
