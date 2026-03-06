@@ -10,8 +10,7 @@ import { Phone, Mail, Phone as PhoneIcon } from "lucide-react";
 
 const footerColumns = [
   {
-    title: "Company",
-    items: [
+    title: "Company",    items: [
       { label: "About Us", href: "/about" },
       { label: "Our Team", href: "/team" },
       { label: "Careers", href: "#" },
@@ -19,8 +18,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Services",
-    items: [
+    title: "Services",    items: [
       { label: "Properties", href: "/properties" },
       { label: "Management", href: "#" },
       { label: "Investment", href: "#" },
@@ -28,8 +26,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Resources",
-    items: [
+    title: "Resources",    items: [
       { label: "Blog", href: "#" },
       { label: "Market Reports", href: "#" },
       { label: "FAQ", href: "#" },
@@ -37,8 +34,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Legal",
-    items: [
+    title: "Legal",    items: [
       { label: "Privacy Policy", href: "#" },
       { label: "Terms of Service", href: "#" },
       { label: "Cookie Policy", href: "#" },
@@ -82,26 +78,11 @@ export default function ContactPage() {
           tag="Contact Options"
           features={[
             {
-              id: "01",
-              title: "Phone Consultation",
-              description: "Speak directly with our property consultants about your specific needs and preferences.",
-              imageSrc: "http://img.b2bpic.net/free-photo/side-view-buyer-signing-document_23-2150225265.jpg?_wi=2",
-              imageAlt: "Phone consultation service",
-            },
+              id: "01",              title: "Phone Consultation",              description: "Speak directly with our property consultants about your specific needs and preferences.",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-buyer-signing-document_23-2150225265.jpg?_wi=2",              imageAlt: "Phone consultation service"},
             {
-              id: "02",
-              title: "Email Inquiry",
-              description: "Send detailed information about your property requirements and we'll prepare a personalized response.",
-              imageSrc: "http://img.b2bpic.net/free-photo/working-tools-things-worker-builder-electrician-top-view_169016-25063.jpg?_wi=2",
-              imageAlt: "Email inquiry service",
-            },
+              id: "02",              title: "Email Inquiry",              description: "Send detailed information about your property requirements and we'll prepare a personalized response.",              imageSrc: "http://img.b2bpic.net/free-photo/working-tools-things-worker-builder-electrician-top-view_169016-25063.jpg?_wi=2",              imageAlt: "Email inquiry service"},
             {
-              id: "03",
-              title: "Schedule a Tour",
-              description: "Book a private tour of available properties with our expert property managers.",
-              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-female-entrepreneur-analyzing-business-reports-while-working-paperwork-office_637285-121.jpg?_wi=2",
-              imageAlt: "Schedule property tour",
-            },
+              id: "03",              title: "Schedule a Tour",              description: "Book a private tour of available properties with our expert property managers.",              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-female-entrepreneur-analyzing-business-reports-while-working-paperwork-office_637285-121.jpg?_wi=2",              imageAlt: "Schedule property tour"},
           ]}
           gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
