@@ -97,7 +97,7 @@ export default function HomePage() {
           background={{ variant: "plain" }}
           mediaItems={[
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/inner-courtyard-with-swimming-pool_661209-479.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/inner-courtyard-with-swimming-pool_661209-479.jpg?_wi=1",
               imageAlt: "Luxury villa with pool in Dubai",
             },
             {
@@ -105,7 +105,7 @@ export default function HomePage() {
               imageAlt: "Penthouse with Dubai Marina skyline view",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/inner-courtyard-with-swimming-pool_661209-479.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/inner-courtyard-with-swimming-pool_661209-479.jpg?_wi=2",
               imageAlt: "Beachfront villa overlooking Arabian Gulf",
             },
             {
@@ -140,7 +140,7 @@ export default function HomePage() {
               name: "Creek Harbor Waterfront Villa",
               price: "AED 8.5M",
               variant: "5 BR • 1,200 sqm • Waterfront",
-              imageSrc: "http://img.b2bpic.net/free-photo/luxury-poolside-experience-where-guests-bask-opulence-cabanas_1268-31113.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/luxury-poolside-experience-where-guests-bask-opulence-cabanas_1268-31113.jpg?_wi=1",
               imageAlt: "Luxury waterfront villa with private beach access",
               isFavorited: false,
             },
@@ -149,7 +149,7 @@ export default function HomePage() {
               name: "Emirates Hills Mansion",
               price: "AED 12.2M",
               variant: "7 BR • 1,850 sqm • Private Estate",
-              imageSrc: "http://img.b2bpic.net/free-photo/place-relax-sunny-beach-black-sea-bulgaria-summer-vacation-travel-holiday_627829-9817.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/place-relax-sunny-beach-black-sea-bulgaria-summer-vacation-travel-holiday_627829-9817.jpg?_wi=1",
               imageAlt: "Palatial mansion with panoramic city views",
               isFavorited: false,
             },
@@ -158,7 +158,7 @@ export default function HomePage() {
               name: "Jumeirah Beachfront Residence",
               price: "AED 6.8M",
               variant: "4 BR • 900 sqm • Beachfront",
-              imageSrc: "http://img.b2bpic.net/free-photo/luxury-poolside-experience-where-guests-bask-opulence-cabanas_1268-31113.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/luxury-poolside-experience-where-guests-bask-opulence-cabanas_1268-31113.jpg?_wi=2",
               imageAlt: "Contemporary beachfront villa with direct beach access",
               isFavorited: false,
             },
@@ -185,21 +185,21 @@ export default function HomePage() {
               id: "01",
               title: "Property Management",
               description: "End-to-end management including maintenance, tenant relations, and compliance with Dubai regulations.",
-              imageSrc: "http://img.b2bpic.net/free-photo/side-view-buyer-signing-document_23-2150225265.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/side-view-buyer-signing-document_23-2150225265.jpg?_wi=1",
               imageAlt: "Professional property management services",
             },
             {
               id: "02",
               title: "Maintenance & Repairs",
               description: "Preventive and corrective maintenance by certified professionals ensuring your property remains pristine.",
-              imageSrc: "http://img.b2bpic.net/free-photo/working-tools-things-worker-builder-electrician-top-view_169016-25063.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/working-tools-things-worker-builder-electrician-top-view_169016-25063.jpg?_wi=1",
               imageAlt: "Expert maintenance and repair services",
             },
             {
               id: "03",
               title: "Tenant Screening",
               description: "Rigorous vetting process ensuring reliable, qualified tenants for your property.",
-              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-female-entrepreneur-analyzing-business-reports-while-working-paperwork-office_637285-121.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-female-entrepreneur-analyzing-business-reports-while-working-paperwork-office_637285-121.jpg?_wi=1",
               imageAlt: "Professional tenant screening process",
             },
             {
@@ -267,7 +267,7 @@ export default function HomePage() {
               tag: "Premium Client",
               avatarSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",
               avatarAlt: "James Richardson",
-              imageSrc: "http://img.b2bpic.net/free-photo/contemporary-living-room_1150-12613.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/contemporary-living-room_1150-12613.jpg?_wi=1",
               imageAlt: "Modern apartment managed by Luxe Properties",
             },
             {
