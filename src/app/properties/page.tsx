@@ -11,8 +11,7 @@ import { Gem, Phone } from "lucide-react";
 
 const footerColumns = [
   {
-    title: "Company",
-    items: [
+    title: "Company",    items: [
       { label: "About Us", href: "/about" },
       { label: "Our Team", href: "/team" },
       { label: "Careers", href: "#" },
@@ -20,8 +19,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Services",
-    items: [
+    title: "Services",    items: [
       { label: "Properties", href: "/properties" },
       { label: "Management", href: "#" },
       { label: "Investment", href: "#" },
@@ -29,8 +27,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Resources",
-    items: [
+    title: "Resources",    items: [
       { label: "Blog", href: "#" },
       { label: "Market Reports", href: "#" },
       { label: "FAQ", href: "#" },
@@ -38,8 +35,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Legal",
-    items: [
+    title: "Legal",    items: [
       { label: "Privacy Policy", href: "#" },
       { label: "Terms of Service", href: "#" },
       { label: "Cookie Policy", href: "#" },
@@ -98,40 +94,16 @@ export default function PropertiesPage() {
           tagAnimation="slide-up"
           products={[
             {
-              id: "1",
-              name: "Creek Harbor Waterfront Villa",
-              price: "AED 8.5M",
-              variant: "5 BR • 1,200 sqm • Waterfront",
-              imageSrc: "http://img.b2bpic.net/free-photo/luxury-poolside-experience-where-guests-bask-opulence-cabanas_1268-31113.jpg?_wi=3",
-              imageAlt: "Luxury waterfront villa with private beach access",
-              isFavorited: false,
+              id: "1",              name: "Creek Harbor Waterfront Villa",              price: "AED 8.5M",              variant: "5 BR • 1,200 sqm • Waterfront",              imageSrc: "http://img.b2bpic.net/free-photo/luxury-poolside-experience-where-guests-bask-opulence-cabanas_1268-31113.jpg?_wi=3",              imageAlt: "Luxury waterfront villa with private beach access",              isFavorited: false,
             },
             {
-              id: "2",
-              name: "Emirates Hills Mansion",
-              price: "AED 12.2M",
-              variant: "7 BR • 1,850 sqm • Private Estate",
-              imageSrc: "http://img.b2bpic.net/free-photo/place-relax-sunny-beach-black-sea-bulgaria-summer-vacation-travel-holiday_627829-9817.jpg?_wi=2",
-              imageAlt: "Palatial mansion with panoramic city views",
-              isFavorited: false,
+              id: "2",              name: "Emirates Hills Mansion",              price: "AED 12.2M",              variant: "7 BR • 1,850 sqm • Private Estate",              imageSrc: "http://img.b2bpic.net/free-photo/place-relax-sunny-beach-black-sea-bulgaria-summer-vacation-travel-holiday_627829-9817.jpg?_wi=2",              imageAlt: "Palatial mansion with panoramic city views",              isFavorited: false,
             },
             {
-              id: "3",
-              name: "Jumeirah Beachfront Residence",
-              price: "AED 6.8M",
-              variant: "4 BR • 900 sqm • Beachfront",
-              imageSrc: "http://img.b2bpic.net/free-photo/luxury-poolside-experience-where-guests-bask-opulence-cabanas_1268-31113.jpg?_wi=4",
-              imageAlt: "Contemporary beachfront villa with direct beach access",
-              isFavorited: false,
+              id: "3",              name: "Jumeirah Beachfront Residence",              price: "AED 6.8M",              variant: "4 BR • 900 sqm • Beachfront",              imageSrc: "http://img.b2bpic.net/free-photo/luxury-poolside-experience-where-guests-bask-opulence-cabanas_1268-31113.jpg?_wi=4",              imageAlt: "Contemporary beachfront villa with direct beach access",              isFavorited: false,
             },
             {
-              id: "4",
-              name: "Downtown Dubai Penthouse",
-              price: "AED 5.2M",
-              variant: "3 BR • 650 sqm • City Center",
-              imageSrc: "http://img.b2bpic.net/free-photo/contemporary-living-room_1150-12613.jpg?_wi=2",
-              imageAlt: "Modern penthouse overlooking Dubai skyline",
-              isFavorited: false,
+              id: "4",              name: "Downtown Dubai Penthouse",              price: "AED 5.2M",              variant: "3 BR • 650 sqm • City Center",              imageSrc: "http://img.b2bpic.net/free-photo/contemporary-living-room_1150-12613.jpg?_wi=2",              imageAlt: "Modern penthouse overlooking Dubai skyline",              isFavorited: false,
             },
           ]}
           gridVariant="four-items-2x2-equal-grid"
