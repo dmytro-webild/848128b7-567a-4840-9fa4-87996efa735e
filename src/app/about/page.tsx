@@ -11,8 +11,7 @@ import { Phone } from "lucide-react";
 
 const footerColumns = [
   {
-    title: "Company",
-    items: [
+    title: "Company",    items: [
       { label: "About Us", href: "/about" },
       { label: "Our Team", href: "/team" },
       { label: "Careers", href: "#" },
@@ -20,8 +19,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Services",
-    items: [
+    title: "Services",    items: [
       { label: "Properties", href: "/properties" },
       { label: "Management", href: "#" },
       { label: "Investment", href: "#" },
@@ -29,8 +27,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Resources",
-    items: [
+    title: "Resources",    items: [
       { label: "Blog", href: "#" },
       { label: "Market Reports", href: "#" },
       { label: "FAQ", href: "#" },
@@ -38,8 +35,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Legal",
-    items: [
+    title: "Legal",    items: [
       { label: "Privacy Policy", href: "#" },
       { label: "Terms of Service", href: "#" },
       { label: "Cookie Policy", href: "#" },
@@ -96,33 +92,13 @@ export default function AboutPage() {
           tag="Meet Our Experts"
           members={[
             {
-              id: "1",
-              name: "Amira Al-Mansouri",
-              role: "CEO & Founder",
-              imageSrc: "http://img.b2bpic.net/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg?_wi=1",
-              imageAlt: "Amira Al-Mansouri, CEO",
-            },
+              id: "1",              name: "Amira Al-Mansouri",              role: "CEO & Founder",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg?_wi=1",              imageAlt: "Amira Al-Mansouri, CEO"},
             {
-              id: "2",
-              name: "Hassan Al-Maktoum",
-              role: "Head of Operations",
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1",
-              imageAlt: "Hassan Al-Maktoum, Operations Director",
-            },
+              id: "2",              name: "Hassan Al-Maktoum",              role: "Head of Operations",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1",              imageAlt: "Hassan Al-Maktoum, Operations Director"},
             {
-              id: "3",
-              name: "Leila Al-Mazrouei",
-              role: "Director of Properties",
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-beautiful-young-businesswoman-looking-camera-head-shot-portrait_1163-4928.jpg?_wi=1",
-              imageAlt: "Leila Al-Mazrouei, Properties Director",
-            },
+              id: "3",              name: "Leila Al-Mazrouei",              role: "Director of Properties",              imageSrc: "http://img.b2bpic.net/free-photo/confident-beautiful-young-businesswoman-looking-camera-head-shot-portrait_1163-4928.jpg?_wi=1",              imageAlt: "Leila Al-Mazrouei, Properties Director"},
             {
-              id: "4",
-              name: "Mohammed Al-Falasi",
-              role: "Investment Advisor",
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2",
-              imageAlt: "Mohammed Al-Falasi, Investment Advisor",
-            },
+              id: "4",              name: "Mohammed Al-Falasi",              role: "Investment Advisor",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2",              imageAlt: "Mohammed Al-Falasi, Investment Advisor"},
           ]}
           gridVariant="four-items-2x2-equal-grid"
           animationType="slide-up"
