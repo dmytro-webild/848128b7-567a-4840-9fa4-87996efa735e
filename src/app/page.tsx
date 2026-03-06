@@ -122,7 +122,7 @@ export default function HomePage() {
           tagAnimation="slide-up"
           products={[
             {
-              id: "1",              name: "Creek Harbor Waterfront Villa",              price: "AED 8.5M",              variant: "5 BR • 1,200 sqm • Waterfront",              imageSrc: "http://img.b2bpic.net/premium-photo/luxurious-stone-villa-with-infinity-pool-overlooking-ocean_1201528-15664.jpg?id=405090258",              imageAlt: "Luxury waterfront villa with private beach access",              isFavorited: false,
+              id: "1",              name: "Creek Harbor Waterfront Villa",              price: "AED 8.5M",              variant: "5 BR • 1,200 sqm • Waterfront",              imageSrc: "http://img.b2bpic.net/premium-photo/modern-minimalist-luxury-villa-exterior-with-pool_584012-4406.jpg?id=378581758",              imageAlt: "Luxury waterfront villa with private beach access",              isFavorited: false,
             },
             {
               id: "2",              name: "Emirates Hills Mansion",              price: "AED 12.2M",              variant: "7 BR • 1,850 sqm • Private Estate",              imageSrc: "http://img.b2bpic.net/free-photo/place-relax-sunny-beach-black-sea-bulgaria-summer-vacation-travel-holiday_627829-9817.jpg?_wi=1",              imageAlt: "Palatial mansion with panoramic city views",              isFavorited: false,
