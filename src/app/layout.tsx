@@ -7,37 +7,24 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 
 const halant = Halant({
-  variable: "--font-halant",
-  subsets: ["latin"],
+  variable: "--font-halant",  subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
 
 const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+  variable: "--font-inter",  subsets: ["latin"],
 });
 
 const interTight = Inter_Tight({
-  variable: "--font-inter-tight",
-  subsets: ["latin"],
+  variable: "--font-inter-tight",  subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
-  title: "Luxury Property Management Dubai | Luxe Properties",
-  description: "Premium property management services for elite investors and homeowners in Dubai. Discover luxury villas, penthouses, and beachfront residences managed by industry experts.",
-  keywords: "luxury property management Dubai, premium real estate, villas for rent, Dubai property management, investment properties",
-  openGraph: {
-    title: "Luxury Property Management Dubai",
-    description: "Discover and manage premium properties with Luxe Properties Dubai - your trusted partner in luxury real estate.",
-    siteName: "Luxe Properties Dubai",
-    type: "website",
-  },
+  title: "Luxury Property Management Dubai | Luxe Properties",  description: "Premium property management services for elite investors and homeowners in Dubai. Discover luxury villas, penthouses, and beachfront residences managed by industry experts.",  keywords: "luxury property management Dubai, premium real estate, villas for rent, Dubai property management, investment properties",  openGraph: {
+    title: "Luxury Property Management Dubai",    description: "Discover and manage premium properties with Luxe Properties Dubai - your trusted partner in luxury real estate.",    siteName: "Luxe Properties Dubai",    type: "website"},
   twitter: {
-    card: "summary_large_image",
-    title: "Luxury Property Management Dubai",
-    description: "Premium properties and expert management services for discerning investors.",
-  },
+    card: "summary_large_image",    title: "Luxury Property Management Dubai",    description: "Premium properties and expert management services for discerning investors."},
 };
 
 export default function RootLayout({
